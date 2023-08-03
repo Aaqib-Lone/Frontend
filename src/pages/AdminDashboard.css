@@ -1,0 +1,201 @@
+/* AdminDashboard.css */
+
+/* General Styles */
+.admin-dashboard {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.iconicsa{
+  width: 100px;
+  animation: rotation 2s infinite linear;
+  animation-duration: 2s;
+  color:#4fb043;
+}
+.iconicsv{
+  width: 100px;
+  animation: rotation 2s infinite linear;
+  animation-duration: 2s;
+  color:#325787;
+}
+.iconicsc{
+  width: 100px;
+  animation: rotation 2s infinite linear;
+  animation-duration: 2s;
+  color:#5f96dd;
+}
+
+@keyframes rotation {
+  from {
+    /* transform: rotate(-0deg); */
+    /* color: #dc26a2; */
+    /* color:#3bec24 */
+  }
+  to {
+    /* transform: rotate(360deg); */
+    /* color: #d46c22; */
+    /* width: 35px;
+    height: 35px; */
+    /* color:#3bec24 */
+  }
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background:  linear-gradient(to right,#ee7724,#d8363a,#dd3675,#b44593);
+  color: white;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background:  linear-gradient(to right,#ee7724,#d8363a,#dd3675,#b44593);
+  color: white;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  font-size: 24px;
+  margin-left: 38rem;
+}
+.headers h1 {
+  font-size: 24px;
+  margin-left: 32rem;
+}
+
+.icon_div{
+  margin-top: -70px;
+}
+.icon{
+  color: white;
+  font-size: 28px;
+  padding: 20px;
+}
+.icon:hover{
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.logos img {
+  width: 12em;
+  height: 4em;
+  margin-left: -66rem;
+  /* margin-top: -px; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.logoss img {
+  width: 12em;
+  height: 4em;
+  margin-left: -72rem;
+  /* margin-top: -px; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Dashboard Stats Styles */
+.dashboard-stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  margin-top: 50px;
+}
+
+.stat {
+  text-align: center;
+  padding: 20px;
+  background:  linear-gradient(to right,#ee7724,#d8363a,#dd3675,#b44593);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.stat:hover{
+  cursor: pointer;
+}
+.stat h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.stat p {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Table Styles */
+.table-container {
+  margin-top: 60px;
+  overflow-x: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+th{
+  padding: 12px 15px;
+  font-size: 17px;
+  text-align: left;
+}
+td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+thead {
+  background: linear-gradient(90deg,rgba(171,58,90,.2) 0,rgba(42,32,118,.2) 100%);
+ 
+  color: #ab3a5a;
+}
+
+tbody tr:nth-child(even) {
+  background: linear-gradient(90deg,rgba(238, 175, 193, 0.2) 0,rgba(167, 158, 236, 0.2) 100%);
+}
+
+/* Button Styles */
+.BtnLogs {
+  cursor: pointer;
+  padding: 10px 20px;
+  background:  linear-gradient(to right,#ee7724,#d8363a,#dd3675,#b44593);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin-left: 74rem;
+  margin-top: 30px;
+}
+
+button:hover {
+  font-size: 18px;
+  cursor: pointer;
+  /* background-color: #001a49; */
+}
+
+.user{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.user .user_icon{
+  font-size: 45px;
+  color: #ab3a5a;
+ 
+}
+.user .user_name{
+  font-size: 22px;
+  color: #ab3a5a;
+ 
+}
